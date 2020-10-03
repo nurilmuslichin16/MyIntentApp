@@ -29,4 +29,26 @@
         android:layout_marginBottom="16dp"
         android:id="@+id/btn_pindahActivityDgObjek"/>
 
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/dial_number"
+        android:layout_marginBottom="16dp"
+        android:id="@+id/btn_dial_number"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="16dp"
+        android:text="@string/pindah_dg_hasil"
+        android:id="@+id/btn_pindah_untuk_hasil"/>
+    
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="@string/hasil_dari_activity"
+        android:id="@+id/tv_hasil"
+        android:textSize="24sp"/>
+
 </LinearLayout>
